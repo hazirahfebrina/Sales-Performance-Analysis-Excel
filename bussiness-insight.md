@@ -1,6 +1,6 @@
 # Business Insights
 
-##Summary
+## Summary
 This analysis reviews clean sales performance and separates rows that need data quality review before they are used in bussiness decisions
 
 ## Key Findings
