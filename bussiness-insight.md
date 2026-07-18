@@ -1,5 +1,8 @@
 # Business Insights
 
+##Summary
+This analysis reviews clean sales performance and separates rows that need data quality review before they are used in bussiness decisions
+
 ## Key Findings
 
 ### 1. Highest Revenue Category
@@ -19,7 +22,4 @@ Revenue peaked in **March** and declined afterward, with **June** recording the 
 
 ## Recommendation
 
-- Increase inventory and promotional efforts for Electronics products.
-- Maintain the strong profitability of the Stationery category.
-- Investigate the factors behind Surabaya's strong sales performance and apply successful strategies to other regions.
-- Continue optimizing the Online sales channel, as it contributes the largest share of completed sales.
+Use clean rows for the main dashboard, but keep the issue log visible. The business should review non-clean rows before using them for final reporting, especially if they affect revenue, profit, or order completion.
