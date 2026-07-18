@@ -19,4 +19,5 @@ The dataset contains order-level sales records with fields such as order date, c
 - Built summary analysis for revenue, profit, order count, average order value, and margin
 - Created a dashboard preview and business insights
 ##Dashboard Preview
-  
+![Nama Dashboard](dashboard-preview.png)
+
