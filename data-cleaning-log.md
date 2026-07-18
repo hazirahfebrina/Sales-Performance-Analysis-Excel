@@ -15,6 +15,6 @@ The dataset contained several intentional data quality issues that were identifi
 | Numeric Formatting | Converted to a consistent number format with thousand separators |
 | Outliers | Reviewed numeric values and no significant outliers were identified |
 
-## Notes
+## Summary
 
-The data cleaning process aimed to improve data quality and consistency before analysis. Missing and invalid values were retained and flagged for further review, while duplicate records were removed to prevent double-counting and ensure accurate reporting.
+The dashboard focuses on clean rows so business decisions are based on reviewed data. Rows that require review are still documented because they may reveal process, data entry, or order management issues
