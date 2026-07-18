@@ -8,9 +8,8 @@ The dataset contained several intentional data quality issues that were identifi
 
 | Issue | Action Taken |
 |-------|--------------|
-| Missing Quantity Values | Identified and flagged for review |
-| Missing Revenue Values | Identified and flagged for review |
-| Duplicate Order IDs | Flagged using Conditional Formatting (duplicates were not removed) |
+| Missing Quantity and Revenue Values | Identified and flagged for review |
+| Duplicate Order IDs | Flagged using Conditional Formatting (duplicates were removed) |
 | Inconsistent Category Names | Standardized using `PROPER(TRIM())` |
 | Inconsistent Date Format | Standardized to `dd/mm/yyyy` |
 | Numeric Formatting | Converted to a consistent number format with thousand separators |
@@ -18,4 +17,4 @@ The dataset contained several intentional data quality issues that were identifi
 
 ## Notes
 
-The purpose of the cleaning process was to improve data consistency while preserving the original dataset. Records with missing or invalid values were flagged instead of deleted to maintain data integrity.
+The data cleaning process aimed to improve data quality and consistency before analysis. Missing and invalid values were retained and flagged for further review, while duplicate records were removed to prevent double-counting and ensure accurate reporting.
